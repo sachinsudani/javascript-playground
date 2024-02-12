@@ -106,8 +106,8 @@ console.log('j = ', j);
 console.log('k = ', k);
 console.log('j + k = ', j + k);
 
-// 7. Conditional operator
-// ? :
+// 7. Conditional operator (Ternary operator)
+// ? :  (condition) ? true : false
 
 let l = 5;
 let m = 3;
@@ -173,3 +173,55 @@ class Person {
 
 let person = new Person('John', 25);
 console.log('person = ', person);
+
+// Conditional statement
+// 1. if
+// 2. if else
+// 3. if else if else
+// 4. switch
+
+let age = 25;
+if (age >= 18) {
+	console.log('You are eligible to vote');
+}
+
+if (age >= 18) {
+	console.log('You are eligible to vote');
+} else {
+	console.log('You are not eligible to vote');
+}
+
+if (age < 18) {
+	console.log('You are not eligible to vote');
+} else if (age >= 18 && age < 60) {
+	console.log('You are eligible to vote');
+} else {
+	console.log('You are not eligible to vote');
+}
+
+let day = 'Monday';
+switch (day) {
+	case 'Monday':
+		console.log('Today is Monday');
+		break;
+	case 'Tuesday':
+		console.log('Today is Tuesday');
+		break;
+	case 'Wednesday':
+		console.log('Today is Wednesday');
+		break;
+	case 'Thursday':
+		console.log('Today is Thursday');
+		break;
+	case 'Friday':
+		console.log('Today is Friday');
+		break;
+	case 'Saturday':
+		console.log('Today is Saturday');
+		break;
+	case 'Sunday':
+		console.log('Today is Sunday');
+		break;
+	default:
+		console.log('Invalid day');
+}
