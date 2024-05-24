@@ -1,0 +1,59 @@
+"use strict"; // treat all JS code as newer version
+
+// alert(3 + 3);
+
+console.log(3 + 3);
+
+// JavaScript has the following data types:
+// Primitive DataTypes
+// 1. Number
+// 2. String
+// 3. Boolean
+// 4. Undefined
+// 5. Null
+// Non-Primitive DataTypes
+// 6. Symbol (new in ECMAScript 2015)
+// 7. BigInt
+// 8. Object
+
+// 1. Number
+let a = 10;
+let b = 10.5;
+
+// 2. String
+let c = "Hello";
+let d = "Hello";
+
+// 3. Boolean
+let e = true;
+let f = false;
+
+// 4. Undefined
+let g = undefined;
+
+// 5. Null
+let h = null;
+
+// 6. Symbol
+let i = Symbol("id");
+
+// 7. BigInt
+let j = 1234567890123456789012345678901234567890n;
+
+// 8. Object
+let k = {
+  name: "John",
+  age: 30,
+  cgpa: 3.5,
+  isGraduated: true,
+};
+
+console.log(k);
+
+k.name = "Jane";
+k.age = 31;
+k.cgpa = 3.6;
+k.isGraduated = false;
+k.address = "Dhaka Bangladesh";
+
+console.log(k);
