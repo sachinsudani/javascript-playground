@@ -11,10 +11,12 @@ console.log(3 + 3);
 // 3. Boolean
 // 4. Undefined
 // 5. Null
-// Non-Primitive DataTypes
 // 6. Symbol (new in ECMAScript 2015)
 // 7. BigInt
-// 8. Object
+// Non-Primitive DataTypes (Reference Types)
+// 1. Object
+// 2. Array
+// 3. Functions
 
 // 1. Number
 let a = 10;
@@ -29,7 +31,7 @@ let e = true;
 let f = false;
 
 // 4. Undefined
-let g = undefined;
+let g;
 
 // 5. Null
 let h = null;
@@ -40,7 +42,9 @@ let i = Symbol("id");
 // 7. BigInt
 let j = 1234567890123456789012345678901234567890n;
 
-// 8. Object
+// Non-Primitive DataTypes (Reference Types)
+
+// 1. Object
 let k = {
   name: "John",
   age: 30,
@@ -48,12 +52,12 @@ let k = {
   isGraduated: true,
 };
 
-console.log(k);
+// 2. Array
+let l = [1, 2, 3, 4, 5];
 
-k.name = "Jane";
-k.age = 31;
-k.cgpa = 3.6;
-k.isGraduated = false;
-k.address = "Dhaka Bangladesh";
+// 3. Functions
+let m = function () {
+  console.log("Hello World");
+};
 
-console.log(k);
+m();
