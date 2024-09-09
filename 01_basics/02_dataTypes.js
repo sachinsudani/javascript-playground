@@ -24,7 +24,7 @@ let b = 10.5;
 
 // 2. String
 let c = "Hello";
-let d = "Hello";
+let d = 'World';
 
 // 3. Boolean
 let e = true;
